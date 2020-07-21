@@ -1,0 +1,45 @@
+body{
+    direction: rtl;
+}
+
+.img-div{
+    text-align: right;
+    margin: 58px 500px 0px 3px;
+   float: right;
+}
+
+.img-div img{
+    border-left: 3px solid red;
+    border-bottom: 3px solid red;
+    border-radius: 0px 20px 0px 0px;
+}
+
+.svgcl{
+    width: 50px;
+    float: left;
+    height: 50px;
+    background-color: #e2e2e2;;
+    padding: 7px;
+    display: block;
+    border-radius: 4px;
+}
+
+.div-svg{   
+    display: grid;
+    float: left;
+    margin: 58px 0px 0px 500px;
+}
+
+@media screen and (max-width: 600px) {
+    .div-svg{   
+        display: grid;
+        float: left;
+        margin: none !important;
+    }
+
+    .img-div{
+        text-align: right;
+        margin:none;
+       float: right;
+    }
+  }
